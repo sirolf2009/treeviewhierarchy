@@ -12,7 +12,7 @@
 	<version>0.0.1</version>
 
 	<url>https://github.com/sirolf2009/treeviewhierarchy</url>
-	
+
 	<description>A JavaFX TreeView with a list of items</description>
 
 	<licenses>
@@ -142,5 +142,13 @@
 			</build>
 		</profile>
 	</profiles>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.sirolf2009</groupId>
+			<artifactId>util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
