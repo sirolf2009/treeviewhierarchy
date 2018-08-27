@@ -11,7 +11,7 @@ public class TreeViewHierarchyExample extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		final TreeViewHierarchy<AnimalType> treeView = new TreeViewHierarchy<>(new TreeItem<>());
+		final TreeViewHierarchy<AnimalType> treeView = new TreeViewHierarchy<AnimalType>(new TreeItem<AnimalType>());
 		treeView.setItems(FXCollections.observableArrayList(buildMammalia()));
 		treeView.setShowRoot(false);
 		final Scene scene = new Scene(treeView, 400, 600);
